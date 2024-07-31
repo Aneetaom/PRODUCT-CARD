@@ -1,0 +1,220 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(121, 204, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.parent{
+background-color: white;
+height: 96vh;
+width: 50vw;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+/* display: flex; */
+position: relative;
+border-radius: 3%;
+cursor: pointer;
+}
+
+
+.child1{
+    background-color: rgb(224, 193, 16); 
+    /* border: 10px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 3%;
+    height: 80%;
+    width: 45%;
+    position: absolute;
+    left: -6%; 
+    top: 10%;
+   
+}
+
+.child1 .image{
+height: 80%;
+width: 100%;
+}
+
+.icons{
+    color: white;
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2em;
+    padding: 0.6em;
+}
+
+.image img{
+    width: 120%;
+  /* justify-content: center; */
+  position: absolute;
+  left: -33%;
+  filter: drop-shadow(1px 16px 20px #0000008d);
+  height: 70%;
+  top: 7%;
+  filter: drop-shadow((10px 10px 4px #3c3ccf));
+
+}
+
+.child1 .options{
+    background-color: white;
+    height: 20%;
+    width: 100%;
+ border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 30px;
+    }
+    
+    .box{
+        border: 1px solid gray;
+        height: 50px;
+        width: 50px;
+        border-radius: 5px;
+        display: flex;
+  align-items: center;
+  justify-content: center;
+
+    }
+    .box img{
+      
+        height: 40px;
+        width: 40px;
+       border-radius: 5px;
+       
+    }
+    
+
+.child2{
+    background-color: white;
+    height: 80%;
+    width: 50%;
+    position: absolute;
+    right: 0; 
+    border-radius: 3%;
+    top: 9%;
+}
+
+ @media only screen and (max-width: 1094px) and (min-width: 930px){
+    .parent {
+       height: 96vh; 
+       width: 76vw;
+    }
+    .child2 { 
+   
+    margin-top: 25px;
+    }
+}
+ @media only screen and (max-width: 1000px) {
+    .child1 { 
+       /* position: static;  */
+       height: 80vh;
+      width: 50%;
+    } 
+    .image img{
+      left: -20%; 
+      width: 100%;
+      height: 70%;;
+    }
+
+}  
+ @media only screen and (max-width: 842px) and (min-width: 767px) {
+ .child1{
+  width: 53;
+ }
+
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+.Rupees .dolar {
+    font-size: 30px;
+  }
+  .ammount {
+    font-size: 80px;
+    color: rgb(233, 157, 15);
+  }
+  .options2 {
+    width: 70%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .bx1, .bx2, .bx3, .bx4 {
+    width: 50px;
+  height: 50px;
+   padding: 10px;
+   margin-right: 15%;
+  border-radius: 5px;
+  align-items: center;
+ 
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; 
+}
+
+
+.bx img {
+    width: 100%;
+    height: 100%;
+  }
+  .cod {
+    color: black;
+    padding: 4% ;
+  
+    font-size: 20px;
+    font-family: cod-font;
+    font-weight: bold;
+    word-spacing: 0.12em;
+  }
+  .list {
+    margin-top: 8px;
+    list-style: inside disc;
+    font-family: simple-text;
+    /* cursor: pointer; */
+  }
+  .btn {
+    width: 40%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    margin-top: 15px;
+    background: rgb(238, 164, 5);
+    color: white;
+    font-family: cod-font;
+    font-size: 15px;
+    font-weight: 800;
+  }
+  .btn:hover{
+    background-color: rgb(57, 128, 57);
+  }
+  
+
+
+
+
